@@ -1,2 +1,9 @@
 # This was an insanely small Travis script
 language: c
+
+compiler:
+    - gcc 
+
+script:
+    - gcc main.c
+    - ./a.out
